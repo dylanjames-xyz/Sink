@@ -14,12 +14,6 @@ const { title } = useAppConfig()
   <Breadcrumb class="flex justify-between">
     <BreadcrumbList>
       <BreadcrumbItem>
-        <BreadcrumbLink href="/">
-          {{ title }}
-        </BreadcrumbLink>
-      </BreadcrumbItem>
-      <BreadcrumbSeparator />
-      <BreadcrumbItem>
         <BreadcrumbLink
           :as="NuxtLink"
           to="/dashboard"
@@ -29,7 +23,7 @@ const { title } = useAppConfig()
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
-        <BreadcrumbPage>{{ title }}</BreadcrumbPage>
+        <BreadcrumbPage>Redirects</BreadcrumbPage>
       </BreadcrumbItem>
     </BreadcrumbList>
 

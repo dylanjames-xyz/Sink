@@ -47,7 +47,7 @@ const features = ref([
       <h2 class="text-4xl font-bold lg:text-5xl lg:tracking-tight">
         Features
       </h2>
-      <p class="my-8 text-lg md:mb-0 text-slate-600">
+      <p class="my-8 text-lg md:mb-0 text-[hsl(0,0%,98%)]">
         Simple and sufficient functionality
       </p>
     </div>
